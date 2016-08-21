@@ -320,8 +320,12 @@ button{
 .badges{
     height: 20vh;
     padding-bottom: 2vh;
-    fill: white;
-    fill-opacity: 0.5;
+    opacity: 0.4;
+}
+.firstbadge{
+    opacity: 1;
+    height: 20vh;
+    padding-bottom: 2vh;
 }
 .badgecollection{
     width: 100%;
