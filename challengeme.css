@@ -17,6 +17,9 @@
     width: 100%;
     height: 15vh;
 }
+.phoneheader div{
+    white-space: nowrap;
+}
 .phoneheader h1{
     color: white;
     font-family: "Jessfont", sans-serif;
