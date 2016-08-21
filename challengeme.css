@@ -301,3 +301,32 @@ button{
     font-size: 20px;
     background: linear-gradient(rgba(255, 152, 25, 0.62), #fceacd);
 }
+
+/**Badge Stuff**/
+.badgeicon{
+    width: 4vw;
+    margin: auto;
+    display: inline-block;
+    margin: 0 15px 20px 15px;
+}
+.badgeheader {
+    color: #606060;
+    font-family: "Jessfont", sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    padding:50px;
+}
+
+.badges{
+    height: 20vh;
+    padding-bottom: 2vh;
+}
+.badgecollection{
+    width: 100%;
+}
+.badgecollection span{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 4vh 0 4vh 0;
+}
