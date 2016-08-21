@@ -240,7 +240,7 @@ button{
 }
 .mountainemphasis{
     text-align: center;
-    font-size: 40px;
+    font-size: 2vw;
     color: #ff9a17;
     padding-top:10px;
     margin-bottom:0;
@@ -248,11 +248,11 @@ button{
 
 .mountaininfo{
     text-align: center;
-    font-size:25px;
+    font-size:1.5vw;
     color: #ff9a17;
 }
 .mountainicon{
-    width: 40px;
+    width: 3vw;
     margin: auto;
     display: block;
 }
