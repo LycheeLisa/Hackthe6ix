@@ -5,19 +5,64 @@
     <title>Challenge Me</title>
     <link rel="stylesheet" href="challengeme.css">
     <script type="text/javascript" src="challengeme.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Profile</a>
-    <a href="#">Challenge</a>
-    <a href="#">Map</a>
-    <a href="#">Rewards</a>
-    <a href="#">Badges</a>
+<!--Navigation-->
+<div class="phoneheader">
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()"><img src="SVGs/hamburger.svg" class="Navbutton"></span>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img src="SVGs/michael.jpg" class="profilepic">
+        <a href="#">Profile</a>
+        <a href="#">Challenge</a>
+        <a href="#">Map</a>
+        <a href="#">Rewards</a>
+        <a href="#">Badges</a>
+    </div>
+    <h1>Profile</h1>
 </div>
-
-<!-- Use any element to open the sidenav -->
-<span onclick="openNav()"><img src="SVGs/hamburger.svg" class="Navbutton"></span>
-
+<!-- Profile Table Homescreen -->
+<div class="challengeheader">
+    <table class="firstrow">
+        <tr>
+            <td class="headerfont sideborder"><div class="emphasis">15</div> Challenges Completed
+            </td>
+            <td class="headerfont"><div class="emphasis">$5,000</div> in Wealthsimple Account
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:100%" class="headerfont1 buttonrewards"><button><b class="emphasis1">5 Rewards</b>waiting for you!
+                </button>
+                <p class="recent">RECENT ACTIVITY</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:100%" class="challengename"><div class="challengeinfo"><span class="glyphicon glyphicon-record"></span>
+                Start Running! Challenge
+                <p class="challengecompany">Nike Running Club</p>
+                <p class="challengerules">Complete 1 group run.</p>
+                <p class="challengeprogress">View Challenge Progress</p>
+            </div></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:100%" class="challengename"><div class="challengeinfo"><span class="glyphicon glyphicon-record orange"></span>
+                Shake Shake Challenge
+                <p class="challengecompany">Fuel +</p>
+                <p class="challengerules">Purchased 1 energy shake.</p>
+                <p class="challengeprogress">View Challenge Progress</p>
+            </div></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:100%" class="challengename"><div class="challengeinfo"><span class="glyphicon glyphicon-record orange"></span>
+                Be Quiet Challenge
+                <p class="challengecompany">Yoga House</p>
+                <p class="challengerules">Attended 1 mediation class.</p>
+                <p class="challengeprogress">View Challenge Progress</p>
+            </div></td>
+        </tr>
+    </table>
+</div>
 </body>
 </html>
