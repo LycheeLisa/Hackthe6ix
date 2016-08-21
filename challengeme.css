@@ -142,6 +142,7 @@ button{
     padding-top: 50px;
     padding-left: 20px;
     margin-bottom: 0;
+    font-size: 30px;
     color: #606060;
 }
 
@@ -198,9 +199,16 @@ button{
     margin: 0;
 }
 .phoneheadermountain h2{
-    color: white;
+    color: #ff9a17;
     font-family: "Jessfont", sans-serif;
     font-size: 30px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.progresscycleh2 {
+    color: #606060;
+    font-family: "Jessfont", sans-serif;
+    font-size: 50px;
     text-align: center;
     margin: 5px 0 0 0;
 }
@@ -208,6 +216,13 @@ button{
     color: #ff9a17;
     font-family: "Jessfont", sans-serif;
     font-size: 20px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.progresscycleh3{
+    color: #ff9a17;
+    font-family: "Jessfont", sans-serif;
+    font-size: 30px;
     text-align: center;
     margin: 5px 0 0 0;
 }
@@ -245,4 +260,44 @@ button{
 .left{
     padding-top: 30px;
     width: 33%;
+}
+
+.progresscycle{
+    width:45%;
+    margin-left:100px;
+    padding-bottom: 30px;
+}
+
+/** Rewards Page**/
+.rewardicon{
+    width: 40px;
+    margin-left:90%;
+    margin-top:7%;
+}
+
+.rewardname{
+    text-align:left;
+    font-size:20px;
+    font-family: "Jessfont", sans-serif;
+}
+.rewardcompany{
+    width: 100px;
+    margin: 20%;
+}
+.challengedescription{
+    display:inline-flex;
+}
+.padleft{
+    padding-left:20px;
+}
+.height100{
+    height: 166px;
+}
+.circle{
+    border-radius: 50%;
+}
+.redeem{
+    font-family: "Jessfont", sans-serif;
+    font-size: 20px;
+    background: linear-gradient(rgba(255, 152, 25, 0.62), #fceacd);
 }
